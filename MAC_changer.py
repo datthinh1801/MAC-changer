@@ -20,9 +20,9 @@ def parse_arguments():
 
     # Add arguments to the object
     parser.add_argument("-i", "--interface", nargs='?', dest="interface", required=True,
-                        help="The interface to be changed MAC address")
+                        help="the interface to be changed MAC address")
     parser.add_argument("-m", "--mac", nargs='?', dest="new_mac", required=True,
-                        help="New mac address")
+                        help="new mac address")
 
     # Parse user inputs and return it as an object storing those inputs
     return parser.parse_args()

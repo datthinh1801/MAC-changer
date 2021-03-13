@@ -1,7 +1,4 @@
 # MAC changer
-Change MAC address of an interface on command-line interface.
-
-This script is compatible with both Python 2 and 3.
 
 ## Usage
 ```
